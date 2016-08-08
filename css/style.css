@@ -16,60 +16,103 @@
   padding: 20px;
 }
 
-#sky{
-  height: 1500px;
-  width: 1500px;
+#background{
+  height: 100%;
+  width: 100%;
 }
 
-.sun{
-  background-color: #ffdd00;
-  border: 10px solid #f1c40f;
+.grey-inside{
+  background-color: #111111;
+  border: 10px solid #222222;
+  background-image: url("http://orig13.deviantart.net/3b0f/f/2011/235/6/b/the_sorting_hat_by_sahinduezguen-d47mwt5.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 80%;
 }
 
-.moon{
-  background-color: #bdc3c7;
-  border: 10px solid #eaeff2;
+.grey-background{
+  background-color: #000000;
 }
 
-.day{
-  background-color: #37d8e6;
+
+.red-inside{
+  background-color: #3e181b;
+  border: 10px solid #db1d2d;
+  background-image: url("http://vignette1.wikia.nocookie.net/harrypotter/images/f/f2/Gryffindor%E2%84%A2_Crest.png/revision/latest?cb=20091129182119");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 65%;
 }
 
-.night{
-  background-color: #2c3e50;
+.orange-inside{
+  background-color: #422018;
+  border: 10px solid #f0421c;
+  background-image: url("https://s-media-cache-ak0.pinimg.com/564x/3a/f5/ca/3af5ca55c126468248abdbd0e3a7c12e.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 45%;
 }
 
-.sun:hover{
-  border: 20px solid #f1c40f;
+.yellow-inside{
+  background-color: #45391b;
+  border: 10px solid #fec02d;
+  background-image: url("http://vignette3.wikia.nocookie.net/harrypotter/images/3/30/Hufflepuff%E2%84%A2_Crest_(Painting).png/revision/latest?cb=20091129184403");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 65%;
 }
 
-.moon:hover{
-  border: 20px solid #eaeff2;
+.green-inside{
+  background-color: #193c29;
+  border: 10px solid #20d071;
+  background-image: url("http://vignette4.wikia.nocookie.net/harrypotter/images/e/ef/Slytherin%E2%84%A2_Crest_(Painting).png/revision/latest?cb=20091129190321");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 65%;
 }
 
-#moonspot1{
-  height: 40px;
-  width: 40px;
-  border-radius: 100%;
-  float: right;
-  margin: 20px;
+.blue-inside{
+  background-color: #18323e;
+  border: 10px solid #1a9ddb;
+  background-image: url("http://vignette1.wikia.nocookie.net/harrypotter/images/6/6c/Ravenclaw%E2%84%A2_Crest_(Painting).png/revision/latest?cb=20091129184403");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 65%;
 }
 
-#moonspot2{
-  height: 80px;
-  width: 80px;
-  border-radius: 100%;
-  float: right;
-  margin: 20px;
+.purple-inside{
+  background-color: #331f35;
+  border: 10px solid #a13fad;
+  background-image: url("http://img07.deviantart.net/bb2a/i/2011/348/e/1/game_of_thrones___house_stark_by_liquidsouldesign-d467f8l.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 45%;
 }
 
-#moonspot3{
-  height: 180px;
-  width: 180px;
-  border-radius: 100%;
-  float: right;
-  margin: 20px;
+.red-background{
+  background-color: #661920;
 }
+
+.orange-background{
+  background-color: #6e2819;
+}
+
+.yellow-background{
+  background-color: #735b20;
+}
+
+.green-background{
+  background-color: #1b613b;
+}
+
+.blue-background{
+  background-color: #184d65;
+}
+
+.purple-background{
+  background-color: #4e2753;
+}
+
 
 .visible{
   background-color: #eaeff2;
