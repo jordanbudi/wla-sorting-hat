@@ -10,17 +10,20 @@ $(document).ready(function(){
     else if($("#orb").hasClass("orange-inside")){
       $("#orb").removeClass("orange-inside").addClass(color+"-inside");
     }
-    else if($("#orb").hasClass("yellow-inside")){
-      $("#orb").removeClass("yellow-inside").addClass(color+"-inside");
-    }
-    else if($("#orb").hasClass("green-inside")){
-      $("#orb").removeClass("green-inside").addClass(color+"-inside");
-    }
+    // else if($("#orb").hasClass("yellow-inside")){
+    //   $("#orb").removeClass("yellow-inside").addClass(color+"-inside");
+    // }
+    // else if($("#orb").hasClass("green-inside")){
+    //   $("#orb").removeClass("green-inside").addClass(color+"-inside");
+    // }
     else if($("#orb").hasClass("blue-inside")){
       $("#orb").removeClass("blue-inside").addClass(color+"-inside");
     }
     else if($("#orb").hasClass("purple-inside")){
       $("#orb").removeClass("purple-inside").addClass(color+"-inside");
+    }
+    else if($("#orb").hasClass("silver-inside")){
+      $("#orb").removeClass("silver-inside").addClass(color+"-inside");
     }
 
     if($("#background").hasClass("grey-background")){
@@ -32,17 +35,20 @@ $(document).ready(function(){
     else if($("#background").hasClass("orange-background")){
       $("#background").removeClass("orange-background").addClass(color+"-background");
     }
-    else if($("#background").hasClass("yellow-background")){
-      $("#background").removeClass("yellow-background").addClass(color+"-background");
-    }
-    else if($("#background").hasClass("green-background")){
-      $("#background").removeClass("green-background").addClass(color+"-background");
-    }
+    // else if($("#background").hasClass("yellow-background")){
+    //   $("#background").removeClass("yellow-background").addClass(color+"-background");
+    // }
+    // else if($("#background").hasClass("green-background")){
+    //   $("#background").removeClass("green-background").addClass(color+"-background");
+    // }
     else if($("#background").hasClass("blue-background")){
       $("#background").removeClass("blue-background").addClass(color+"-background");
     }
     else if($("#background").hasClass("purple-background")){
       $("#background").removeClass("purple-background").addClass(color+"-background");
+    }
+    else if($("#background").hasClass("silver-background")){
+      $("#background").removeClass("silver-background").addClass(color+"-background");
     }
   };
 
@@ -58,19 +64,19 @@ $(document).ready(function(){
     }
     else if (key === 100 || key === 68)
     {
-      changeState("yellow");
+      changeState("blue");
     }
     else if (key === 102 || key === 70)
     {
-      changeState("green");
+      changeState("purple");
     }
     else if (key === 103 || key === 71)
     {
-      changeState("blue");
+      changeState("silver");
     }
     else if (key === 104 || key === 72)
     {
-      changeState("purple");
+      changeState("red");
     }
     else if (key === 48)
     {
