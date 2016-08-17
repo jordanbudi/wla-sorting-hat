@@ -61,15 +61,15 @@
   background-position: center center;
   background-size: 65%;
 }
-
+*/
 .green-inside{
   background-color: #193c29;
   border: 10px solid #20d071;
-  background-image: url("http://vignette4.wikia.nocookie.net/harrypotter/images/e/ef/Slytherin%E2%84%A2_Crest_(Painting).png/revision/latest?cb=20091129190321");
+  background-image: url("../images/invictus2.png");
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 65%;
-}*/
+  background-size: 100%;
+}
 
 .blue-inside{
   background-color: #18323e;
@@ -109,10 +109,10 @@
 /*.yellow-background{
   background-color: #735b20;
 }
-
+*/
 .green-background{
   background-color: #1b613b;
-}*/
+}
 
 .blue-background{
   background-color: #184d65;

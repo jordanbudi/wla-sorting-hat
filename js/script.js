@@ -13,9 +13,9 @@ $(document).ready(function(){
     // else if($("#orb").hasClass("yellow-inside")){
     //   $("#orb").removeClass("yellow-inside").addClass(color+"-inside");
     // }
-    // else if($("#orb").hasClass("green-inside")){
-    //   $("#orb").removeClass("green-inside").addClass(color+"-inside");
-    // }
+    else if($("#orb").hasClass("green-inside")){
+      $("#orb").removeClass("green-inside").addClass(color+"-inside");
+    }
     else if($("#orb").hasClass("blue-inside")){
       $("#orb").removeClass("blue-inside").addClass(color+"-inside");
     }
@@ -38,9 +38,9 @@ $(document).ready(function(){
     // else if($("#background").hasClass("yellow-background")){
     //   $("#background").removeClass("yellow-background").addClass(color+"-background");
     // }
-    // else if($("#background").hasClass("green-background")){
-    //   $("#background").removeClass("green-background").addClass(color+"-background");
-    // }
+    else if($("#background").hasClass("green-background")){
+      $("#background").removeClass("green-background").addClass(color+"-background");
+    }
     else if($("#background").hasClass("blue-background")){
       $("#background").removeClass("blue-background").addClass(color+"-background");
     }
@@ -72,7 +72,7 @@ $(document).ready(function(){
     }
     else if (key === 103 || key === 71)
     {
-      changeState("silver");
+      changeState("green");
     }
     else if (key === 104 || key === 72)
     {
