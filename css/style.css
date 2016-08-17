@@ -47,7 +47,7 @@
 .orange-inside{
   background-color: #422018;
   border: 10px solid #f0421c;
-  background-image: url("/images/Gaudium2.png");
+  background-image: url("../images/Gaudium2.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100%;
@@ -74,7 +74,7 @@
 .blue-inside{
   background-color: #18323e;
   border: 10px solid #1a9ddb;
-  background-image: url("/images/resnovae2.png");
+  background-image: url("../images/resnovae2.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100%;
@@ -83,7 +83,7 @@
 .purple-inside{
   background-color: #331f35;
   border: 10px solid #a13fad;
-  background-image: url("/images/gratia3.png");
+  background-image: url("../images/gratia3.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100%;
@@ -92,7 +92,7 @@
 .silver-inside{
   background-color: #C0C0C0;
   border: 10px solid #D3D3D3;
-  background-image: url("/images/invictus3.png");
+  background-image: url("../images/invictus3.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100%;
