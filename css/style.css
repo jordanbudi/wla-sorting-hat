@@ -5,7 +5,7 @@
 #orb{
   height: 300px;
   width: 300px;
-  background-color: #blue;
+  background-color: dark-gray;
   border-radius: 100%;
   margin: auto;
   position: absolute;
@@ -36,18 +36,18 @@
 
 
 .red-inside{
-  background-color: #3e181b;
+  background-color: #f23242;
   border: 10px solid #db1d2d;
-  background-image: url("../images/Iconoclastes.png");
+  background-image: url("../images/Iconoclastes-logo.png");
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 100%;
+  background-size: 90%;
 }
 
 .orange-inside{
-  background-color: #422018;
+  background-color: #2a2a2a;
   border: 10px solid #f0421c;
-  background-image: url("../images/Gaudium3.png");
+  background-image: url("../images/Gaudium-logo.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100%;
@@ -63,27 +63,27 @@
 }
 */
 .green-inside{
-  background-color: #193c29;
+  background-color: #000000;
   border: 10px solid #20d071;
-  background-image: url("../images/invictus2.png");
+  background-image: url("../images/Invictus-logo.png");
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: 100%;
+  background-size: 90%;
 }
 
 .blue-inside{
-  background-color: #18323e;
+  background-color: #1c437c;
   border: 10px solid #1a9ddb;
-  background-image: url("../images/resnovae2.png");
-  background-repeat: no-repeat;
+  background-image: url("../images/ResNovae-logo.png");
+  background-repeat: repeat;
   background-position: center center;
-  background-size: 100%;
+  background-size: 90%;
 }
 
 .purple-inside{
   background-color: #331f35;
   border: 10px solid #a13fad;
-  background-image: url("../images/gratia3.png");
+  background-image: url("../images/Gratia-logo.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100%;
